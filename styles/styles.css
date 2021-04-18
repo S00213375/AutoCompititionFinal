@@ -152,7 +152,7 @@ h5 {
 
 .Team_detail {
     column-count:5 ;
-    column-rule: 1px solid red;
+    column-rule: 1px solid #534df8;
     column-gap: 50px;
     padding: 2px;
  
@@ -169,7 +169,7 @@ h5 {
         column-count:4 ;
     column-rule: 1px solid red;
     column-gap: 50px;
-    padding: 2px;
+    padding: 3px;
 }
 
 footer {
