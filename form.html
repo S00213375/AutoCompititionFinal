@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+ <!-- The following lines are comments
+     Auther: Casey McLoughlin
+     Date created: 2/3/21
+     Page description: Competition site-->
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Competition site">
+    <meta name="keywords" content="Rev Tech Competitions">
+    
+    <style>
+    
+lable{
+        float: left;
+        width: 112px;
+        padding-right: 10px;
+        text-align: right;
+}
+
+        input{
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 220px;
+        }
+        
+        #button, #reset{
+            margin-top: .5em;
+            width: 8em;
+            background-color: orange;
+            border: 2px solid black;
+        }
+        input[type="checkbox"] {width: 10px}
+        
+        #button{
+            margin-left: 138px;
+        }
+        #reset{
+            margin-left: 82px;
+        }
+        
+        input[type"radio"] {width: 10px;}
+        
+        .required{
+            font-weight: bold;
+            color: red;
+        }
+        body{
+            font-family: sans-serif;
+            background-image: url(images/patrik-storm-alstra-pictures-6xHuU1Q0ShQ-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size:auto;
+            margin: 10px;
+        }
+        
+        main{
+            margin: 15px 200px;
+            padding: 20px;
+            border: black solid 1px;
+            background: white;
+            min-height: 500px;
+        }
+        header p{
+            position: relative;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        ul{list-style: none;}
+        
+        li{display: inline-block;}
+        
+        footer a{text-decoration: none;}
+        
+    </style>
+    
+    </head>
+
+    <body>
+    <header>
+    <p>Complete and Submit</p>    
+    </header>
+    <main>
+    
+    <section>
+    <h3>please enter the following information:</h3>
+    <form action="http://www.foo.com/" method="get">
+    
+        <label for="first name">First name:<span class="required">*</span></label>
+        <input type="text" name="first_name" id="first name" autofocus required><br>
+        <label for="last name">Last name:<span class="required">*</span></label>
+        <input type="text" name="last_name" id="last_name" autofocus required><br>
+        <label for="email">Email:<span class="required">*</span></label>
+        <input type="email" name="email" id="email" required placeholder="janedoe@example.com"><br>
+        <label for="comp no.">Comp No:<span class="required">*</span></label>
+        <input type="text" name="comp_no" id="comp_no" autofocus required><br>
+        <label for="paypal">PayPal:<span class="required">*</span></label>
+        <input type="text" name="paypal" id="paypal" autofocus required><br>
+    
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+         <input type="radio" name="gender" id="gender" value="female">Female
+         <input type="radio" name="gender" id="gender" value="other">Other
+        <fieldset>
+        <label for="Heading">Heaed of us:</label>
+            
+        <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+        <input type="checkbox" class="marginl" id="hear" name="paper" value="paper" > Newspaper <br>
+        <input type="checkbox" class="marginl" id="hear" name="friends" value="friends" > Friends/Family <br>
+        <input type="checkbox" class="marginl" id="hear" name="socailmedia" value="socailmedia" > Socail Media <br>
+        </fieldset>
+        <br>
+        
+        <label for="message">Comments : </label>
+        
+        <textarea cols="40" rows="6" id="message" name="message" placeholder="your message must be less than 200 characters" data-maxlength"200"></textarea><br>
+        
+        <input type="submit" name="submit" id="button" value="submit">
+        <input type="reset" name="reset" id="reset">
+        
+    </form>
+    <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field </em></p>
+    </section>    
+    </main>
+    
+                 
+      <footer>
+            <ul>
+            <a href="home.html"> Home </a> 
+            <a href="competitions.html"> Competitions </a> 
+            <a href="draws.html"> Draws </a>  
+            <a href="contact.html"> Contact Us </a>
+        </ul>     
+         <small>&copy; 2020 RevTech</small>
+    </footer>
+        
+        
+    </body>
+</html>

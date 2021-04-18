@@ -1,0 +1,237 @@
+body
+{
+    background-color: #1c0050;
+    width: 98%;
+    max-width: 1890px;
+    margin: 0 auto;
+    border: 2px solid black;
+    font-family:serif;
+    
+}
+
+nav
+{
+    background-color: rgba(126, 126, 126, 0);
+    
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1em;
+}
+
+nav ul li 
+{
+    background-color: rgba(255, 255, 255, 0);
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav
+{
+    padding: 5px;
+}
+
+nav ul li
+{
+  padding: 15px;
+    margin: 5px;
+    border: 2px solid #2a0079;
+    border-radius: 100px;
+   
+        
+}
+
+nav ul li:hover
+{
+    background: rgba(75, 0, 217, 0.65);
+}
+
+p
+{
+   
+    color: white;
+    font-family:sans-serif;
+    font-size: 15.5px;
+    text-align: center;
+  
+        
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-family:inherit;
+        
+}
+
+h2
+{
+    font-family: sans-serif;
+    font-size-adjust:none;
+    text-align:center;
+    color: white;
+}
+
+h3
+{
+    color: white;
+    font-family:serif;
+    text-align: center;
+   
+}
+
+h4
+{
+    color: white;
+    text-align:center;
+    font-family:serif;
+}
+
+
+footer p
+{
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(130, 93, 255, 0.66);
+}
+header {
+    background-image:url(../images/patrik-storm-alstra-pictures-6xHuU1Q0ShQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 98%;
+    height:600px;
+    color: navajowhite;
+}
+
+.course {
+     text-align: center;
+    border: 1px solid white;
+    padding:10px
+}
+
+.videocontent {
+  text-align: center;
+    border: 1px solid rgba(75, 0, 217, 0.65);
+    padding:10px
+}
+
+.joe {
+
+   position:static;
+   border: 2px solid rgba(178, 138, 255, 0.65);
+   padding:30px
+  
+}
+
+aside {
+    border: 1px solid white;
+    float: right;
+    width: 10%;
+    color: white;
+    
+}
+
+
+
+h5 {
+    color: white;
+    text-align: center;
+    font-family:serif;
+}
+
+.Team_detail {
+    column-count:5 ;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+    padding: 2px;
+ 
+}
+
+#Owner {
+    max-height:300px;
+    overflow: auto;
+    text-align: left;
+    font-family:sans-serif
+}
+
+.Owner_detail {
+        column-count:4 ;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+footer {
+    position: fixed;
+    clear: both;
+    border: 2px solid rgb(168, 142, 255);
+    padding: o;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #9259ff;
+    
+    text-align: center;
+}
+
+.Winners {
+    text-align: center;
+    border: 1px solid rgba(75, 0, 217, 0.65);
+    padding:10px
+}
+
+
+
+.map {
+    float: left;
+    padding: 40px;
+}
+
+.address {
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
+
+.comp {
+    text-align: center;
+    border: 1px solid rgba(75, 0, 217, 0.65);
+    padding:10px
+}
+
+
+
+.youtubevideo2 {
+       float:left;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+.mp4video {
+        float:right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+}
